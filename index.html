@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yevheniia Abashkina – Crafted Digital Experiences</title>
+    <meta name="description"
+        content="Yevheniia Abashkina – Webentwicklerin, UI/UX-Designerin und KI-Content-Creatorin aus Chemnitz.">
+    <meta name="title-de" content="Yevheniia Abashkina – Crafted Digital Experiences">
+    <meta name="title-en" content="Yevheniia Abashkina – Crafted Digital Experiences">
+    <meta name="description-de"
+        content="Yevheniia Abashkina – Webentwicklerin, UI/UX-Designerin und KI-Content-Creatorin aus Chemnitz.">
+    <meta name="description-en"
+        content="Yevheniia Abashkina – web developer, UI/UX designer and AI content creator based in Chemnitz, Germany.">
+    <meta name="theme-color" content="#f5f4ef">
+    <link rel="icon" type="image/png" href="assets/images/logo-square-red.png">
+    <link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="home">
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+            <a class="header-logo" href="index.html" aria-label="Home">
+                <img src="assets/images/logo-square-red.png" alt="YA Logo" width="44" height="44">
+            </a>
+
+            <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="main-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li class="has-sub">
+                        <button class="nav-link" type="button" aria-expanded="false">Projects<span class="caret"
+                                aria-hidden="true"></span></button>
+                        <ul class="sub-nav">
+                            <li><a href="web-development.html"><span data-lang="de">Technische Umsetzung &amp;
+                                        Webentwicklung</span><span data-lang="en">Technical Implementation &amp; Web
+                                        Development</span></a></li>
+                            <li><a href="concept-design.html"><span data-lang="de">Konzeption, Design &amp;
+                                        Entwicklung</span><span data-lang="en">Concept, Design &amp;
+                                        Development</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <div class="lang-switch" role="group" aria-label="Sprache / Language">
+                            <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+                            <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="scroll-progress" aria-hidden="true"></div>
+    </header>
+
+    <main>
+
+        <!-- ===== Hero ===== -->
+        <section class="hero container">
+            <h1 class="visually-hidden">Yevheniia Abashkina – Crafted Digital Experiences</h1>
+            <img class="hero-logo intro-anim" src="assets/images/logo-color.svg"
+                alt="Yevheniia Abashkina – Crafted Digital Experiences" width="878" height="427">
+
+            <div class="hero-intro intro-anim" style="--delay:.35s">
+                <div data-lang="de">
+                    <p>Ich verbinde UI/UX-Design, AI Content Creation und Web Development, um digitale Ideen
+                        ganzheitlich zum Leben zu erwecken.</p>
+                    <p>Von der ersten Konzeption und visuellen Art Direction über interaktive Interfaces und
+                        fotorealistische KI-Visuals bis zur technischen Umsetzung entwickle ich moderne digitale
+                        Erlebnisse, die Gestaltung, Funktionalität und Technologie miteinander verbinden.</p>
+                </div>
+                <div data-lang="en">
+                    <p>I combine UI/UX design, AI content creation and web development to bring digital ideas to life –
+                        from start to finish.</p>
+                    <p>From the first concept and visual art direction to interactive interfaces, photorealistic AI
+                        visuals and technical implementation, I create modern digital experiences that unite design,
+                        functionality and technology.</p>
+                </div>
+            </div>
+
+            <ul class="hero-tags intro-anim" style="--delay:.6s">
+                <li><a href="#web-development">Web Development</a></li>
+                <li><a href="#uiux">UI/UX Design</a></li>
+                <li><a href="#ai">AI Visuals</a></li>
+            </ul>
+            <a class="scroll-cue intro-anim" style="--delay:.9s" href="#web-development" aria-label="Scroll"></a>
+        </section>
+
+        <!-- ===== Web developer ===== -->
+        <section class="role container" id="web-development">
+            <div class="role-grid">
+                <div class="role-media reveal">
+                    <!-- TODO: add portrait → assets/images/web-developer.jpg -->
+                    <img src="assets/images/web-developer.jpg" alt="Yevheniia Abashkina – Porträt" width="800"
+                        height="790" loading="lazy"
+                        onerror="this.outerHTML='<div class=&quot;img-placeholder&quot;>Portrait: assets/images/web-developer.jpg</div>'">
+                </div>
+                <div class="role-text reveal">
+                    <span class="eyebrow"><b>01</b> / Code</span>
+                    <h2 class="display-title">
+                        <span data-lang="de">Webentwicklerin</span>
+                        <span data-lang="en">Web Developer</span>
+                    </h2>
+                    <div data-lang="de">
+                        <p>Seit 2022 arbeite ich als Webentwicklerin in einem kreativen Team einer Chemnitzer
+                            Werbeagentur.</p>
+                        <p>Gemeinsam entwickeln und realisieren wir individuelle WordPress-Websites und Webportale.</p>
+                        <p>Anstelle von vorgefertigten Page-Buildern setzen wir auf maßgeschneiderte Themes und
+                            individuelle Funktionen, die passgenau auf die Anforderungen jedes Projekts abgestimmt sind.
+                        </p>
+                    </div>
+                    <div data-lang="en">
+                        <p>Since 2022 I have been working as a web developer in the creative team of an advertising
+                            agency in Chemnitz.</p>
+                        <p>Together we design and build custom WordPress websites and web portals.</p>
+                        <p>Instead of off-the-shelf page builders, we rely on tailor-made themes and custom
+                            functionality, precisely matched to the requirements of each project.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack">
+                <h3 class="section-label">
+                    <span data-lang="de">Mein Devstack umfasst</span>
+                    <span data-lang="en">My dev stack</span>
+                </h3>
+                <ul class="icon-row reveal-stagger">
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/php.svg" alt="" width="46"
+                                height="46"></span>PHP</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/html5.svg" alt="" width="46"
+                                height="46"></span>HTML-5</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/css3.svg" alt="" width="46"
+                                height="46"></span>CSS</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/less.svg" alt="" width="46"
+                                height="46"></span>LESS</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/javascript.svg" alt="" width="46"
+                                height="46"></span>JavaScript</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/nodedotjs.svg" alt="" width="46"
+                                height="46"></span>NodeJS</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/grunt.svg" alt="" width="46"
+                                height="46"></span>Grunt</li>
+                    <li><span class="icon-tile"><img class="icon" src="assets/icons/yarn.svg" alt="" width="46"
+                                height="46"></span>Yarn</li>
+                </ul>
+            </div>
+
+            <div class="btn-line btn-line--left">
+                <a class="btn" href="web-development.html">
+                    <span data-lang="de">Projekte ansehen</span><span data-lang="en">View projects</span>
+                    <span class="btn-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ===== UI/UX Designer ===== -->
+        <section class="role role--reverse container" id="uiux">
+            <div class="role-grid">
+                <div class="role-media reveal">
+                    <img src="assets/images/uiux-designer.png"
+                        alt="Yevheniia Abashkina vor einer Wand mit Farbspritzern" width="1152" height="2048"
+                        loading="lazy" style="object-position: center 25%">
+                </div>
+                <div class="role-text reveal">
+                    <span class="eyebrow"><b>02</b> / Design</span>
+                    <h2 class="display-title">
+                        <span data-lang="de">UI/UX Designer</span>
+                        <span data-lang="en">UI/UX Designer</span>
+                    </h2>
+                    <div data-lang="de">
+                        <p>Ich entwickle moderne, intuitive und visuell klare digitale Interfaces – von der ersten Idee
+                            und Informationsarchitektur bis zum ausgearbeiteten UI-Design.</p>
+                        <p>Dabei verbinde ich UX-Thinking, visuelle Gestaltung und technisches Verständnis, um Designs
+                            zu entwickeln, die nicht nur gut aussehen, sondern auch strukturiert und funktional sind.
+                        </p>
+                        <p>Meine Erfahrung mit Webprojekten, Responsive Design und digitalen Markenauftritten ermöglicht
+                            mir, Gestaltung und technische Umsetzung von Anfang an zusammenzudenken.</p>
+                    </div>
+                    <div data-lang="en">
+                        <p>I create modern, intuitive and visually clear digital interfaces – from the first idea and
+                            information architecture to the finished UI design.</p>
+                        <p>I combine UX thinking, visual design and technical understanding to create designs that don’t
+                            just look good, but are also well structured and functional.</p>
+                        <p>My experience with web projects, responsive design and digital brand presences allows me to
+                            think design and technical implementation together right from the start.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack">
+                <h3 class="section-label">
+                    <span data-lang="de">Mein UI/UX-Stack umfasst</span>
+                    <span data-lang="en">My UI/UX stack</span>
+                </h3>
+                <div class="stack-cols reveal-stagger">
+                    <div>
+                        <h4>UX &amp; UI Design</h4>
+                        <ul>
+                            <li>Adobe XD</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Visual Design</h4>
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe Illustrator</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Prototyping</h4>
+                        <ul>
+                            <li>Interactive Prototypes</li>
+                            <li>User Flows</li>
+                            <li>Wireframes</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Web &amp; Implementation</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>WordPress</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-line btn-line--right">
+                <a class="btn" href="concept-design.html">
+                    <span data-lang="de">Projekte ansehen</span><span data-lang="en">View projects</span>
+                    <span class="btn-arrow" aria-hidden="true">→</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ===== AI content creator ===== -->
+        <section class="role container" id="ai">
+            <div class="role-grid">
+                <div class="role-media reveal">
+                    <img src="assets/images/ai-visual-artist.jpg"
+                        alt="KI-generiertes Modefoto: Frau im gelben Mantel mit Zebra" width="1152" height="2048"
+                        loading="lazy" style="object-position: center 18%">
+                </div>
+                <div class="role-text reveal">
+                    <span class="eyebrow"><b>03</b> / AI Visuals</span>
+                    <h2 class="display-title">
+                        <span data-lang="de">KI Content Creator &amp; Visual Artist</span>
+                        <span data-lang="en">AI Content Creator &amp; Visual Artist</span>
+                    </h2>
+                    <div data-lang="de">
+                        <p>Ich entwickle hochwertige, fotorealistische KI-Visuals und cinematische Videos für Marken,
+                            Produkte und digitale Kampagnen.</p>
+                        <p>Dabei verbinde ich kreative Konzeption, professionelle Art Direction und moderne
+                            KI-Technologien, um individuelle und aufmerksamkeitsstarke Bildwelten zu schaffen.</p>
+                        <p>Mein Fokus liegt auf authentischer Produktdarstellung, hoher visueller Qualität und
+                            überzeugendem Storytelling – von E-Commerce und Fashion bis hin zu Beauty, Luxury und
+                            Advertising.</p>
+                    </div>
+                    <div data-lang="en">
+                        <p>I create high-quality, photorealistic AI visuals and cinematic videos for brands, products
+                            and digital campaigns.</p>
+                        <p>I combine creative concepts, professional art direction and modern AI technologies to build
+                            distinctive, eye-catching visual worlds.</p>
+                        <p>My focus is on authentic product presentation, high visual quality and compelling
+                            storytelling – from e-commerce and fashion to beauty, luxury and advertising.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack">
+                <h3 class="section-label">
+                    <span data-lang="de">Mein KI-Stack umfasst</span>
+                    <span data-lang="en">My AI stack</span>
+                </h3>
+                <div class="stack-cols reveal-stagger">
+                    <div>
+                        <h4>Workflow</h4>
+                        <ul>
+                            <li>Concept</li>
+                            <li>Prompt Engineering</li>
+                            <li>Image Generation</li>
+                            <li>Refinement</li>
+                            <li>Animation</li>
+                            <li>Video Editing</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Generative Image</h4>
+                        <ul>
+                            <li>Nano Banana</li>
+                            <li><span data-lang="de">Seedream und viele mehr</span><span data-lang="en">Seedream and
+                                    many more</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>AI Video</h4>
+                        <ul>
+                            <li>Kling</li>
+                            <li>Seedance</li>
+                            <li>Higgsfield</li>
+                            <li>Gemini Omni Flash</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Creative &amp; Editing</h4>
+                        <ul>
+                            <li>CapCut</li>
+                            <li>AI-assisted post-production</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-line btn-line--left">
+                <a class="btn" href="https://www.instagram.com/ya_creator.ai" target="_blank" rel="noopener">
+                    <span data-lang="de">Projekte auf Instagram ansehen</span><span data-lang="en">View projects on
+                        Instagram</span>
+                    <span class="play" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="reveal">
+                    <span class="eyebrow"><b>04</b> / <span data-lang="de">Kontakt</span><span
+                            data-lang="en">Contact</span></span>
+                    <h2 class="display-title">
+                        <span data-lang="de">Lassen Sie uns etwas <em>Besonderes</em> schaffen</span>
+                        <span data-lang="en">Let’s create something <em>remarkable</em></span>
+                    </h2>
+                    <p data-lang="de">Sie haben ein Projekt im Kopf oder möchten zusammenarbeiten? Ich freue mich auf
+                        Ihre Nachricht.</p>
+                    <p data-lang="en">Have a project in mind or want to work together? I’m looking forward to hearing
+                        from you.</p>
+                </div>
+                <ul class="contact-links reveal-stagger">
+                    <li><a class="is-primary" href="mailto:job.y.abashkina@gmail.com">✉&nbsp;
+                            job.y.abashkina@gmail.com</a></li>
+                    <li><a href="https://www.instagram.com/ya_creator.ai" target="_blank" rel="noopener">Instagram ↗</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            Designed &amp; created by Yevheniia · <span data-year>2026</span>
+            <nav aria-label="Rechtliches">
+                <a href="legal-notice.html"><span data-lang="de">Impressum</span><span data-lang="en">Legal
+                        notice</span></a>
+                <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+            </nav>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Nach oben / Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

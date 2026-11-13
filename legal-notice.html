@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impressum – Yevheniia Abashkina</title>
+    <meta name="title-de" content="Impressum – Yevheniia Abashkina">
+    <meta name="title-en" content="Legal notice – Yevheniia Abashkina">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#f5f4ef">
+    <link rel="icon" type="image/png" href="assets/images/logo-square-red.png">
+    <link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-sub">
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+            <a class="header-logo" href="index.html" aria-label="Home">
+                <img src="assets/images/logo-square-red.png" alt="YA Logo" width="44" height="44">
+            </a>
+
+            <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="main-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-sub">
+                        <button class="nav-link" type="button" aria-expanded="false">Projects<span class="caret"
+                                aria-hidden="true"></span></button>
+                        <ul class="sub-nav">
+                            <li><a href="web-development.html"><span data-lang="de">Technische Umsetzung &amp;
+                                        Webentwicklung</span><span data-lang="en">Technical Implementation &amp; Web
+                                        Development</span></a></li>
+                            <li><a href="concept-design.html"><span data-lang="de">Konzeption, Design &amp;
+                                        Entwicklung</span><span data-lang="en">Concept, Design &amp;
+                                        Development</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li>
+                        <div class="lang-switch" role="group" aria-label="Sprache / Language">
+                            <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+                            <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="scroll-progress" aria-hidden="true"></div>
+    </header>
+
+    <main>
+        <section class="page-head container legal">
+            <h1 class="display-title"><span data-lang="de">Impressum</span><span data-lang="en">Legal notice</span></h1>
+
+            <h2>Angaben gemäß § 5 DDG</h2>
+            <p>Yevheniia Abashkina<br>Leipziger Str. 51<br>09113 Chemnitz<br>Deutschland</p>
+            <h2>Kontakt</h2>
+            <p>E-Mail: job.y.abashkina@gmail.com</p>
+            <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+            <p>Yevheniia Abashkina, Anschrift wie oben</p>
+            <p data-lang="en"><em>This legal notice is required under German law and is therefore provided in
+                    German.</em></p>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            Designed &amp; created by Yevheniia · <span data-year>2026</span>
+            <nav aria-label="Rechtliches">
+                <a href="legal-notice.html"><span data-lang="de">Impressum</span><span data-lang="en">Legal
+                        notice</span></a>
+                <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+            </nav>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Nach oben / Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

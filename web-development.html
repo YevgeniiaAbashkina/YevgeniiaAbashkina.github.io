@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technische Umsetzung &amp; Webentwicklung – Yevheniia Abashkina</title>
+  <meta name="description" content="Ausgewählte Webentwicklungsprojekte von Yevheniia Abashkina: individuelle WordPress-Themes, WooCommerce, Multisite und Mehrsprachigkeit.">
+  <meta name="title-de" content="Technische Umsetzung &amp; Webentwicklung – Yevheniia Abashkina">
+  <meta name="title-en" content="Technical Implementation &amp; Web Development – Yevheniia Abashkina">
+  <meta name="description-de" content="Ausgewählte Webentwicklungsprojekte von Yevheniia Abashkina: individuelle WordPress-Themes, WooCommerce, Multisite und Mehrsprachigkeit.">
+  <meta name="description-en" content="Selected web development projects by Yevheniia Abashkina: custom WordPress themes, WooCommerce, multisite and multilingual websites.">
+  <meta name="theme-color" content="#f5f4ef">
+  <link rel="icon" type="image/png" href="assets/images/logo-square-red.png">
+  <link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-sub">
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="header-logo" href="index.html" aria-label="Home">
+        <img src="assets/images/logo-square-red.png" alt="YA Logo" width="44" height="44">
+      </a>
+
+      <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-sub">
+            <button class="nav-link" type="button" aria-expanded="false">Projects<span class="caret" aria-hidden="true"></span></button>
+            <ul class="sub-nav">
+              <li><a href="web-development.html" aria-current="page"><span data-lang="de">Technische Umsetzung &amp; Webentwicklung</span><span data-lang="en">Technical Implementation &amp; Web Development</span></a></li>
+              <li><a href="concept-design.html"><span data-lang="de">Konzeption, Design &amp; Entwicklung</span><span data-lang="en">Concept, Design &amp; Development</span></a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li>
+            <div class="lang-switch" role="group" aria-label="Sprache / Language">
+              <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+              <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section class="page-head container">
+      <h1 class="display-title">
+        <span data-lang="de">Technische Umsetzung &amp; Webentwicklung</span>
+        <span data-lang="en">Technical Implementation &amp; Web Development</span>
+      </h1>
+      <p class="page-intro reveal"><span data-lang="de">Individuelle WordPress-Themes, eigene Funktionen und saubere technische Umsetzung – eine Auswahl meiner Entwicklungsprojekte.</span><span data-lang="en">Custom WordPress themes, bespoke functionality and clean technical implementation – a selection of my development projects.</span></p>
+    </section>
+
+    <!-- ===== Carousel ===== -->
+    <section class="coverflow" data-coverflow aria-roledescription="carousel" aria-label="Projekte">
+      <div class="coverflow-stage">
+        <figure class="coverflow-slide" data-target="bartmeise"><img src="assets/images/projects/bartmeise.de.jpg" alt="Bartmeise Reisen" width="1920" height="1080"><figcaption>Bartmeise Reisen</figcaption></figure>
+        <figure class="coverflow-slide" data-target="ifu"><img src="assets/images/projects/ifu-lichtenau.de.jpg" alt="IFU Lichtenau" width="1920" height="1080" loading="lazy"><figcaption>IFU Lichtenau</figcaption></figure>
+        <figure class="coverflow-slide" data-target="tischer"><img src="assets/images/projects/tischer-tischlerei.de.jpg" alt="TISCHER Tischlerei + Holzbau" width="1920" height="1080" loading="lazy"><figcaption>TISCHER Tischlerei + Holzbau</figcaption></figure>
+        <figure class="coverflow-slide" data-target="faradit"><img src="assets/images/projects/faradit-gewerbepark.de.jpg" alt="FARADIT" width="1920" height="1080" loading="lazy"><figcaption>FARADIT</figcaption></figure>
+        <figure class="coverflow-slide" data-target="kib"><img src="assets/images/projects/kultur-in-begleitung.de.jpg" alt="Kultur in Begleitung" width="1920" height="1080" loading="lazy"><figcaption>Kultur in Begleitung</figcaption></figure>
+        <figure class="coverflow-slide" data-href="https://zapmuradqasem.com"><img src="assets/images/projects/zapmuradqasem.com.jpg" alt="Zahnarztpraxis Murad Qasem" width="1920" height="1080" loading="lazy"><figcaption>Zahnarztpraxis Murad Qasem</figcaption></figure>
+        <figure class="coverflow-slide" data-target="holzweissig-dental"><img src="assets/images/projects/zahnarztpraxis-holzweissig.de.jpg" alt="Zahnarztpraxis Holzweißig" width="1920" height="1080" loading="lazy"><figcaption>Zahnarztpraxis Holzweißig</figcaption></figure>
+      </div>
+      <button class="coverflow-nav coverflow-nav--prev" type="button" aria-label="Zurück">‹</button>
+      <button class="coverflow-nav coverflow-nav--next" type="button" aria-label="Weiter">›</button>
+      <div class="coverflow-dots"></div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="projects container">
+      <h2 class="section-label">
+        <span data-lang="de">Ausgewählte Webentwicklungsprojekte</span>
+        <span data-lang="en">Selected web development projects</span>
+      </h2>
+
+      <div class="project-grid">
+
+        <!-- Bartmeise -->
+        <article class="project reveal" id="bartmeise">
+          <a class="project-media" data-domain="bartmeise.de" href="https://bartmeise.de" target="_blank" rel="noopener">
+            <img src="assets/images/projects/bartmeise.de.jpg" alt="Website Bartmeise Reisen" width="1920" height="1080" loading="lazy">
+          </a>
+          <h3>Bartmeise Reisen</h3>
+          <div class="project-tags"><span data-lang="de">Webentwicklung</span><span data-lang="en">Web development</span> | WordPress · WooCommerce</div>
+          <div data-lang="de">
+            <p>Technische Entwicklung einer WordPress-Website für spezialisierte Vogelbeobachtungs- und Naturreisen. Der Schwerpunkt lag auf einem individuellen Theme, der Anpassung von WooCommerce und der Entwicklung eigener WordPress-Funktionen.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>WooCommerce</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>Less</li></ul></div>
+            <p><strong>Leistungen:</strong> Individuelle Theme-Entwicklung · WooCommerce-Anpassungen · Entwicklung eigener WordPress-Funktionen · Responsive Umsetzung</p>
+          </div>
+          <div data-lang="en">
+            <p>Technical development of a WordPress website for specialised birdwatching and nature tours. The focus was on a custom theme, WooCommerce customisation and the development of bespoke WordPress functionality.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>WooCommerce</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>Less</li></ul></div>
+            <p><strong>Services:</strong> Custom theme development · WooCommerce customisation · Custom WordPress functions · Responsive implementation</p>
+          </div>
+        </article>
+
+        <!-- IFU Lichtenau -->
+        <article class="project reveal" id="ifu">
+          <a class="project-media" data-domain="ifu-lichtenau.de" href="https://ifu-lichtenau.de" target="_blank" rel="noopener">
+            <img src="assets/images/projects/ifu-lichtenau.de.jpg" alt="Website IFU Lichtenau" width="1920" height="1080" loading="lazy">
+          </a>
+          <h3>IFU Lichtenau</h3>
+          <div class="project-tags"><span data-lang="de">Webentwicklung</span><span data-lang="en">Web development</span> | WordPress · Multilingual</div>
+          <div data-lang="de">
+            <p class="project-claim">Komplexe Inhalte effizient und flexibel verwalten</p>
+            <p>Entwicklung einer mehrsprachigen WordPress-Website innerhalb eines sehr kurzen Projektzeitraums. Der Schwerpunkt lag auf einer effizienten technischen Umsetzung, einer individuellen Benutzerführung auf der Startseite und einer flexiblen Inhaltsverwaltung für umfangreiche und unterschiedliche Inhalte.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>CSS3 (Less)</li><li>WPML</li><li>Swiper.js</li></ul></div>
+            <p><strong>Leistungen:</strong> Individuelle Theme-Entwicklung · Mehrsprachigkeit mit WPML · Integration von Swiper.js · Individuelle Tab-Umschaltung auf der Startseite · Entwicklung zahlreicher Custom Post Types (CPTs) und Custom Metaboxen · Responsive Umsetzung</p>
+          </div>
+          <div data-lang="en">
+            <p class="project-claim">Managing complex content efficiently and flexibly</p>
+            <p>Development of a multilingual WordPress website within a very short project timeframe. The focus was on an efficient technical implementation, a custom user journey on the homepage and flexible content management for extensive and varied content.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>CSS3 (Less)</li><li>WPML</li><li>Swiper.js</li></ul></div>
+            <p><strong>Services:</strong> Custom theme development · Multilingual setup with WPML · Swiper.js integration · Custom tab switching on the homepage · Numerous custom post types (CPTs) and custom meta boxes · Responsive implementation</p>
+          </div>
+        </article>
+
+        <!-- TISCHER -->
+        <article class="project reveal" id="tischer">
+          <a class="project-media" data-domain="tischer-tischlerei.de" href="https://tischer-tischlerei.de" target="_blank" rel="noopener">
+            <img src="assets/images/projects/tischer-tischlerei.de.jpg" alt="Website TISCHER Tischlerei + Holzbau" width="1920" height="1080" loading="lazy">
+          </a>
+          <h3>TISCHER Tischlerei + Holzbau</h3>
+          <div class="project-tags"><span data-lang="de">Webentwicklung</span><span data-lang="en">Web development</span> | WordPress Multisite · <span data-lang="de">Teamarbeit</span><span data-lang="en">Teamwork</span></div>
+          <div data-lang="de">
+            <p class="project-claim">Zwei Unternehmensbereiche, ein gemeinsamer Webauftritt</p>
+            <p>Technische Entwicklung der Website für die TISCHER Tischlerei mit Schwerpunkt auf individuellem Möbelbau, Innenausbau und Maßanfertigungen. Das Projekt ist Teil einer WordPress-Multisite, die die Bereiche Tischlerei und Holzbau unter einer gemeinsamen Unternehmensidentität verbindet.</p>
+            <p>Die Umsetzung der beiden Websites erfolgte in Zusammenarbeit mit einem Entwicklerteam. Während ich an der Tischlerei-Website arbeitete, wurde die Holzbau-Website von einem anderen Entwickler umgesetzt. Die gemeinsame Projektarbeit erforderte eine enge Abstimmung und Zusammenarbeit über beide Webauftritte hinweg.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress Multisite</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+            <p><strong>Leistungen:</strong> Individuelle Theme-Entwicklung · Entwicklung eigener WordPress-Funktionen · Responsive Umsetzung · Zusammenarbeit im Entwicklerteam</p>
+          </div>
+          <div data-lang="en">
+            <p class="project-claim">Two business units, one shared web presence</p>
+            <p>Technical development of the website for TISCHER joinery, focusing on custom furniture, interior fittings and made-to-measure work. The project is part of a WordPress multisite that unites joinery and timber construction under one shared corporate identity.</p>
+            <p>Both websites were built together with a team of developers. While I worked on the joinery website, the timber construction website was implemented by another developer. The joint project required close coordination and collaboration across both sites.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress Multisite</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+            <p><strong>Services:</strong> Custom theme development · Custom WordPress functions · Responsive implementation · Collaboration in a development team</p>
+          </div>
+        </article>
+
+        <!-- FARADIT -->
+        <article class="project reveal" id="faradit">
+          <a class="project-media" data-domain="faradit-gewerbepark.de" href="https://faradit-gewerbepark.de" target="_blank" rel="noopener">
+            <img src="assets/images/projects/faradit-gewerbepark.de.jpg" alt="Website FARADIT Gewerbepark" width="1920" height="1080" loading="lazy">
+          </a>
+          <h3>FARADIT · <span data-lang="de">Beratung + Service &amp; Gewerbepark</span><span data-lang="en">Consulting + Service &amp; Business Park</span></h3>
+          <div class="project-tags"><span data-lang="de">Webentwicklung</span><span data-lang="en">Web development</span> | WordPress Multisite</div>
+          <div data-lang="de">
+            <p class="project-claim">Zwei Unternehmensbereiche, ein digitales Ökosystem</p>
+            <p>Technische Entwicklung und Betreuung eines WordPress-Multisite-Projekts für FARADIT Beratung + Service und den FARADIT Gewerbepark. Die beiden Websites präsentieren unterschiedliche Geschäftsbereiche innerhalb einer gemeinsamen technischen Infrastruktur – von Unternehmensleistungen und Veranstaltungen bis hin zu Gewerbeflächen, Mietangeboten und ansässigen Unternehmen.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress Multisite</li><li>PHP</li><li>JavaScript</li><li>Three.js</li><li>Wallop.js</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+            <p><strong>Leistungen:</strong> Individuelle Theme-Entwicklung · Entwicklung eigener WordPress-Funktionen · Integration interaktiver 3D-Elemente mit Three.js · Umsetzung animierter Slider mit Wallop.js · Responsive Webdesign</p>
+          </div>
+          <div data-lang="en">
+            <p class="project-claim">Two business units, one digital ecosystem</p>
+            <p>Technical development and maintenance of a WordPress multisite project for FARADIT Beratung + Service and the FARADIT business park. The two websites present different business units on a shared technical infrastructure – from corporate services and events to commercial spaces, rental offers and resident companies.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress Multisite</li><li>PHP</li><li>JavaScript</li><li>Three.js</li><li>Wallop.js</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+            <p><strong>Services:</strong> Custom theme development · Custom WordPress functions · Interactive 3D elements with Three.js · Animated sliders with Wallop.js · Responsive web design</p>
+          </div>
+        </article>
+
+        <!-- Kultur in Begleitung -->
+        <article class="project reveal" id="kib">
+          <a class="project-media" data-domain="kultur-in-begleitung.de" href="https://kultur-in-begleitung.de" target="_blank" rel="noopener">
+            <img src="assets/images/projects/kultur-in-begleitung.de.jpg" alt="Website Kultur in Begleitung" width="1920" height="1080" loading="lazy">
+          </a>
+          <h3>Kultur in Begleitung</h3>
+          <div class="project-tags"><span data-lang="de">Webentwicklung</span><span data-lang="en">Web development</span> | WordPress · <span data-lang="de">Community-Plattform</span><span data-lang="en">Community platform</span> · Multilingual</div>
+          <div data-lang="de">
+            <p class="project-claim">Menschen verbinden und Kulturerlebnisse gemeinsam ermöglichen</p>
+            <p>Entwicklung einer mehrsprachigen Plattform, die Kulturinteressierte zusammenbringt und gemeinsame Besuche von Veranstaltungen ermöglicht. Neben der Präsentation von Kulturangeboten bietet die Plattform registrierten Nutzern die Möglichkeit, sich untereinander über einen integrierten Nachrichtenbereich auszutauschen.</p>
+            <p>Ein besonderer Schwerpunkt lag auf der Entwicklung individueller Benutzerfunktionen und eines geschützten Veranstalterbereichs. Veranstalter können mit vom Administrator bereitgestellten Zugangsdaten ihre Veranstaltungsinhalte eigenständig pflegen und verwalten – ohne direkten Zugriff auf das WordPress-Backend.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li><li>Mehrsprachigkeits-Plugin</li><li>Benutzerregistrierungs-Plugins</li></ul></div>
+            <p><strong>Leistungen:</strong> Mehrsprachige Website-Entwicklung · Gestaltung und Styling mit Less · Integration von Benutzerregistrierungsfunktionen · Gemeinsame Entwicklung eines internen Nachrichtensystems (Chats) mit einem weiteren Webentwickler · Individueller Veranstalterbereich zur eigenständigen Inhaltspflege · Benutzer- und rollenbasierte Zugriffskontrolle · Responsive Umsetzung</p>
+          </div>
+          <div data-lang="en">
+            <p class="project-claim">Connecting people and enabling shared cultural experiences</p>
+            <p>Development of a multilingual platform that brings culture lovers together and enables them to attend events together. Alongside presenting cultural offers, the platform lets registered users communicate with each other through an integrated messaging area.</p>
+            <p>A particular focus was on custom user features and a protected organiser area. Using credentials provided by the administrator, organisers can maintain and manage their event content independently – without direct access to the WordPress back end.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li><li>multilingual plugin</li><li>user registration plugins</li></ul></div>
+            <p><strong>Services:</strong> Multilingual website development · Design and styling with Less · User registration features · Internal messaging system (chats), co-developed with another web developer · Custom organiser area for independent content management · User and role-based access control · Responsive implementation</p>
+          </div>
+        </article>
+
+        <!-- Holzweissig dental practice — TODO: review/complete project text -->
+        <article class="project reveal" id="holzweissig-dental">
+          <a class="project-media" data-domain="zahnarztpraxis-holzweissig.de" href="https://zahnarztpraxis-holzweissig.de" target="_blank" rel="noopener">
+            <img src="assets/images/projects/zahnarztpraxis-holzweissig.de.jpg" alt="Website Zahnarztpraxis Holzweißig" width="1920" height="1080" loading="lazy">
+          </a>
+          <h3>Zahnarztpraxis Holzweißig</h3>
+          <div class="project-tags"><span data-lang="de">Webentwicklung</span><span data-lang="en">Web development</span> | WordPress</div>
+          <div data-lang="de">
+            <p class="project-claim">Ein freundlicher, klarer Webauftritt für eine Zahnarztpraxis</p>
+            <p>Technische Umsetzung einer WordPress-Website für eine Zahnarztpraxis. Im Mittelpunkt standen eine übersichtliche Präsentation der Leistungen, schnell auffindbare Kontaktinformationen und Öffnungszeiten sowie eine einfache Pflege der Inhalte.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+            <p><strong>Leistungen:</strong> Individuelle Theme-Entwicklung · Responsive Umsetzung</p>
+          </div>
+          <div data-lang="en">
+            <p class="project-claim">A friendly, clear web presence for a dental practice</p>
+            <p>Technical implementation of a WordPress website for a dental practice. The focus was on a clear presentation of services, easy-to-find contact details and opening hours, and simple content management.</p>
+            <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+            <p><strong>Services:</strong> Custom theme development · Responsive implementation</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      Designed &amp; created by Yevheniia · <span data-year>2026</span>
+      <nav aria-label="Rechtliches">
+        <a href="legal-notice.html"><span data-lang="de">Impressum</span><span data-lang="en">Legal notice</span></a>
+        <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Nach oben / Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

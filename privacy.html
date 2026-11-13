@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datenschutz – Yevheniia Abashkina</title>
+    <meta name="title-de" content="Datenschutz – Yevheniia Abashkina">
+    <meta name="title-en" content="Privacy – Yevheniia Abashkina">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#f5f4ef">
+    <link rel="icon" type="image/png" href="assets/images/logo-square-red.png">
+    <link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-sub">
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+            <a class="header-logo" href="index.html" aria-label="Home">
+                <img src="assets/images/logo-square-red.png" alt="YA Logo" width="44" height="44">
+            </a>
+
+            <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="main-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-sub">
+                        <button class="nav-link" type="button" aria-expanded="false">Projects<span class="caret"
+                                aria-hidden="true"></span></button>
+                        <ul class="sub-nav">
+                            <li><a href="web-development.html"><span data-lang="de">Technische Umsetzung &amp;
+                                        Webentwicklung</span><span data-lang="en">Technical Implementation &amp; Web
+                                        Development</span></a></li>
+                            <li><a href="concept-design.html"><span data-lang="de">Konzeption, Design &amp;
+                                        Entwicklung</span><span data-lang="en">Concept, Design &amp;
+                                        Development</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li>
+                        <div class="lang-switch" role="group" aria-label="Sprache / Language">
+                            <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+                            <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="scroll-progress" aria-hidden="true"></div>
+    </header>
+
+    <main>
+        <section class="page-head container legal">
+            <h1 class="display-title"><span data-lang="de">Datenschutzerklärung</span><span data-lang="en">Privacy
+                    policy</span></h1>
+            <!-- TODO: review privacy policy or complete it with a generator (e.g. eRecht24) -->
+            <h2>1. Verantwortliche</h2>
+            <p>Yevheniia Abashkina, Leipziger Str. 51, 09113 Chemnitz<br>
+                E-Mail: job.y.abashkina@gmail.com</p>
+            <h2>2. Hosting über GitHub Pages und Server-Logfiles</h2>
+            <p>Diese Website wird über GitHub Pages bereitgestellt. Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr.
+                Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub automatisch technische
+                Informationen in Server-Logfiles (z. B. IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browser), um
+                die Website auszuliefern und die Sicherheit des Dienstes zu gewährleisten. Rechtsgrundlage ist Art. 6
+                Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt in einer sicheren und zuverlässigen Bereitstellung
+                dieser Website.</p>
+            <p>Dabei kann eine Übermittlung personenbezogener Daten in die USA stattfinden. GitHub ist unter dem
+                EU-U.S. Data Privacy Framework zertifiziert; ergänzend stützt sich die Übermittlung auf
+                Standardvertragsklauseln der EU-Kommission. Weitere Informationen finden Sie in der
+                Datenschutzerklärung von GitHub: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement"
+                    target="_blank" rel="noopener">GitHub General Privacy Statement</a>.</p>
+            <h2>3. Keine Cookies, kein Tracking, keine externen Schriftarten</h2>
+            <p>Diese Website verwendet keine Cookies und keine Analyse- oder Tracking-Dienste. Alle Schriftarten werden
+                lokal vom eigenen Server geladen. Lediglich die gewählte Sprache (DE/EN) wird im lokalen Speicher Ihres
+                Browsers (localStorage) abgelegt; diese Information verlässt Ihr Gerät nicht.</p>
+            <h2>4. Externe Links</h2>
+            <p>Diese Website enthält Links zu externen Websites (z. B. Instagram). Erst beim Anklicken werden Daten an
+                den jeweiligen Anbieter übertragen.</p>
+            <h2>5. Ihre Rechte</h2>
+            <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung,
+                Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer
+                Datenschutz-Aufsichtsbehörde.</p>
+            <p data-lang="en"><em>This privacy policy is provided in German.</em></p>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            Designed &amp; created by Yevheniia · <span data-year>2026</span>
+            <nav aria-label="Rechtliches">
+                <a href="legal-notice.html"><span data-lang="de">Impressum</span><span data-lang="en">Legal
+                        notice</span></a>
+                <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+            </nav>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Nach oben / Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Konzeption, Design &amp; Entwicklung – Yevheniia Abashkina</title>
+    <meta name="description" content="Ganzheitliche Webprojekte von Yevheniia Abashkina – von Konzeption und UI/UX Design bis zur WordPress-Entwicklung.">
+    <meta name="title-de" content="Konzeption, Design &amp; Entwicklung – Yevheniia Abashkina">
+    <meta name="title-en" content="Concept, Design &amp; Development – Yevheniia Abashkina">
+    <meta name="description-de" content="Ganzheitliche Webprojekte von Yevheniia Abashkina – von Konzeption und UI/UX Design bis zur WordPress-Entwicklung.">
+    <meta name="description-en" content="End-to-end web projects by Yevheniia Abashkina – from concept and UI/UX design to WordPress development.">
+    <meta name="theme-color" content="#f5f4ef">
+    <link rel="icon" type="image/png" href="assets/images/logo-square-red.png">
+    <link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="page-sub">
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+        <a class="header-logo" href="index.html" aria-label="Home">
+            <img src="assets/images/logo-square-red.png" alt="YA Logo" width="44" height="44">
+        </a>
+
+        <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="main-nav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="has-sub">
+                <button class="nav-link" type="button" aria-expanded="false">Projects<span class="caret" aria-hidden="true"></span></button>
+                <ul class="sub-nav">
+                <li><a href="web-development.html"><span data-lang="de">Technische Umsetzung &amp; Webentwicklung</span><span data-lang="en">Technical Implementation &amp; Web Development</span></a></li>
+                <li><a href="concept-design.html" aria-current="page"><span data-lang="de">Konzeption, Design &amp; Entwicklung</span><span data-lang="en">Concept, Design &amp; Development</span></a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li>
+                <div class="lang-switch" role="group" aria-label="Sprache / Language">
+                <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+                <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+                </div>
+            </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="scroll-progress" aria-hidden="true"></div>
+    </header>
+
+    <main>
+        <section class="page-head container">
+        <h1 class="display-title">
+            <span data-lang="de">Konzeption, Design &amp; Entwicklung</span>
+            <span data-lang="en">Concept, Design &amp; Development</span>
+        </h1>
+        <p class="page-intro reveal"><span data-lang="de">Von der ersten Idee über das Screendesign bis zur fertigen Website – Projekte, die ich ganzheitlich begleitet habe.</span><span data-lang="en">From the first idea through screen design to the finished website – projects I accompanied from start to finish.</span></p>
+        </section>
+
+        <!-- ===== Carousel ===== -->
+        <section class="coverflow" data-coverflow aria-roledescription="carousel" aria-label="Projekte">
+        <div class="coverflow-stage">
+            <figure class="coverflow-slide" data-target="etl"><img src="assets/images/projects/etl-steuerplus.de.jpg" alt="ETL SteuerPlus" width="1920" height="1080"><figcaption>ETL SteuerPlus</figcaption></figure>
+            <figure class="coverflow-slide" data-target="laserwichtel"><img src="assets/images/projects/laserwichtel.de.jpg" alt="Laserwichtel" width="1920" height="1080" loading="lazy"><figcaption>Laserwichtel</figcaption></figure>
+            <figure class="coverflow-slide" data-target="c-tango"><img src="assets/images/projects/c-tango.de.jpg" alt="C-Tango" width="1920" height="1080" loading="lazy"><figcaption>C-Tango</figcaption></figure>
+            <figure class="coverflow-slide" data-target="play4vision"><img src="assets/images/projects/play4vision.jpg" alt="Play4Vision" width="1920" height="1080" loading="lazy"><figcaption>Play4Vision</figcaption></figure>
+            <figure class="coverflow-slide" data-target="buehler"><img src="assets/images/projects/buehler-kollegen.de.jpg" alt="Bühler &amp; Kollegen" width="1920" height="1080" loading="lazy"><figcaption>Bühler &amp; Kollegen</figcaption></figure>
+            <figure class="coverflow-slide" data-target="lions"><img src="assets/images/projects/lions-inside.de.jpg" alt="Lions Inside" width="1920" height="1080" loading="lazy"><figcaption>Lions Inside</figcaption></figure>
+            <figure class="coverflow-slide" data-href="https://zapmuradqasem.com"><img src="assets/images/projects/zapmuradqasem.com.jpg" alt="Zahnarztpraxis Murad Qasem" width="1920" height="1080" loading="lazy"><figcaption>Zahnarztpraxis Murad Qasem</figcaption></figure>
+        </div>
+        <button class="coverflow-nav coverflow-nav--prev" type="button" aria-label="Zurück">‹</button>
+        <button class="coverflow-nav coverflow-nav--next" type="button" aria-label="Weiter">›</button>
+        <div class="coverflow-dots"></div>
+        </section>
+
+        <!-- ===== Projects ===== -->
+        <section class="projects container">
+        <h2 class="section-label">
+            <span data-lang="de">Ganzheitliche Webprojekte</span>
+            <span data-lang="en">End-to-end web projects</span>
+        </h2>
+
+        <div class="project-grid">
+
+            <!-- ETL SteuerPlus -->
+            <article class="project reveal" id="etl">
+            <a class="project-media" data-domain="etl-steuerplus.de" href="https://etl-steuerplus.de" target="_blank" rel="noopener">
+                <img src="assets/images/projects/etl-steuerplus.de.jpg" alt="Website ETL SteuerPlus" width="1920" height="1080" loading="lazy">
+            </a>
+            <h3>ETL SteuerPlus</h3>
+            <div class="project-tags"><span data-lang="de">Ganzheitliches Webprojekt</span><span data-lang="en">End-to-end web project</span> | UI/UX Design · WordPress</div>
+            <div data-lang="de">
+                <p class="project-claim">Sieben Kanzleien. Ein gemeinsamer digitaler Auftritt.</p>
+                <p>Konzeption, Screendesign und technische Entwicklung einer zentralen Website für sieben Steuerkanzleien innerhalb einer gemeinsamen Gruppe. Ziel war es, die einzelnen Kanzleien unter einem einheitlichen digitalen Auftritt zu verbinden und ihnen gleichzeitig zu ermöglichen, eigene Veranstaltungen, Neuigkeiten und Stellenangebote zu präsentieren sowie die Verbindung zur zentralen Organisation zu stärken.</p>
+                <p>Auf Grundlage des von der Agentur bereitgestellten Corporate Designs entwickelte ich das Screendesign in Adobe XD und setzte die Website anschließend mit WordPress um. Dafür erstellte ich ein individuelles, angepasstes Theme sowie eigene Custom Post Types und Metaboxen, um die verschiedenen Inhalte strukturiert und flexibel verwalten zu können.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Leistungen:</strong> UI/UX Design und Screendesign · Individuelle Theme-Entwicklung · Entwicklung eigener Custom Post Types (CPTs) und Metaboxen · Strukturierte Inhaltsverwaltung für sieben Kanzleien · Responsive Webdesign</p>
+            </div>
+            <div data-lang="en">
+                <p class="project-claim">Seven firms. One shared digital presence.</p>
+                <p>Concept, screen design and technical development of a central website for seven tax consultancies within one group. The goal was to unite the individual firms under a consistent digital presence while enabling each of them to present its own events, news and job offers and to strengthen the connection to the central organisation.</p>
+                <p>Based on the corporate design provided by the agency, I created the screen design in Adobe XD and then built the website with WordPress – including a custom theme as well as custom post types and meta boxes to manage the different content in a structured and flexible way.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Services:</strong> UI/UX design and screen design · Custom theme development · Custom post types (CPTs) and meta boxes · Structured content management for seven firms · Responsive web design</p>
+            </div>
+            </article>
+
+            <!-- Laserwichtel -->
+            <article class="project reveal" id="laserwichtel">
+            <a class="project-media" data-domain="laserwichtel.de" href="https://laserwichtel.de" target="_blank" rel="noopener">
+                <img src="assets/images/projects/laserwichtel.de.jpg" alt="Onlineshop Laserwichtel" width="1920" height="1080" loading="lazy">
+            </a>
+            <h3>Laserwichtel</h3>
+            <div class="project-tags"><span data-lang="de">Ganzheitliches Webprojekt</span><span data-lang="en">End-to-end web project</span> | UI/UX Design · E-Commerce · WooCommerce</div>
+            <div data-lang="de">
+                <p class="project-claim">Individuelle Produkte und klassische Bestellungen in einem Onlineshop</p>
+                <p>Entwicklung eines Onlineshops innerhalb eines kurzen Projektzeitraums, der sowohl klassische Produktbestellungen als auch individuelle Sonderanfertigungen ermöglicht. Ziel war es, das Produktsortiment übersichtlich nach Kategorien zu strukturieren und einen Bestellprozess mit unterschiedlichen Liefergruppen abzubilden.</p>
+                <p>Auf Basis von WordPress und WooCommerce wurde der Shop individuell angepasst und um die benötigten Funktionen erweitert. Dabei standen eine klare Produktstruktur, eine einfache Bestellabwicklung und die flexible Verwaltung des Sortiments im Mittelpunkt.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>WooCommerce</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Leistungen:</strong> Einrichtung und Anpassung von WooCommerce · Individuelle Shop-Konfiguration · Strukturierung und Kategorisierung des Produktsortiments · Unterstützung von Sonderanfertigungen · Konfiguration von Liefergruppen · Anpassung des Bestellprozesses · Responsive Umsetzung</p>
+            </div>
+            <div data-lang="en">
+                <p class="project-claim">Custom products and classic orders in one online shop</p>
+                <p>Development of an online shop within a short project timeframe that supports both classic product orders and custom-made items. The goal was to structure the product range clearly by category and to map an ordering process with different delivery groups.</p>
+                <p>Built on WordPress and WooCommerce, the shop was customised and extended with the required features. The focus was on a clear product structure, simple order handling and flexible management of the product range.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>WooCommerce</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Services:</strong> WooCommerce setup and customisation · Custom shop configuration · Structuring and categorising the product range · Support for custom-made items · Delivery group configuration · Order process customisation · Responsive implementation</p>
+            </div>
+            </article>
+
+            <!-- C-Tango -->
+            <article class="project reveal" id="c-tango">
+            <a class="project-media" data-domain="c-tango.de" href="https://c-tango.de" target="_blank" rel="noopener">
+                <img src="assets/images/projects/c-tango.de.jpg" alt="Website C-Tango" width="1920" height="1080" loading="lazy">
+            </a>
+            <h3>C-Tango</h3>
+            <div class="project-tags">UI/UX Design · Landingpage · WordPress</div>
+            <div data-lang="de">
+                <p>Konzeption, Gestaltung und technische Entwicklung einer Landingpage für Tango-Tanzkurse und Workshops. Ziel war es, das Kursangebot übersichtlich zu präsentieren und Interessierten einen schnellen Überblick über bevorstehende Kurse, Workshops und wichtige Termine zu ermöglichen.</p>
+                <p>In enger und unkomplizierter Zusammenarbeit mit der Kundin entstand eine individuelle Website, die ihre Wünsche und Anforderungen berücksichtigt. Eine besondere Herausforderung bestand darin, die Website so aufzubauen, dass die Kundin Inhalte und Termine auch nach dem Launch selbstständig pflegen kann – ohne dafür technische Kenntnisse zu benötigen.</p>
+                <p>Für die Veranstaltungsverwaltung entwickelte ich einen eigenen Custom Post Type. Ergänzend dazu entstand ein dynamischer Veranstaltungskalender auf Basis von PHP-Datumsfunktionen, individuellen WordPress-Abfragen und JavaScript.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Leistungen:</strong> Konzeption und Screendesign · Individuelle Theme-Entwicklung · Custom Post Type für Veranstaltungen · Dynamische WordPress-Abfragen · Individueller Veranstaltungskalender mit PHP und JavaScript · Benutzerfreundliche Inhaltsverwaltung · Responsive Webdesign · Enge Abstimmung mit der Kundin</p>
+            </div>
+            <div data-lang="en">
+                <p>Concept, design and technical development of a landing page for tango classes and workshops. The goal was to present the course offering clearly and give visitors a quick overview of upcoming classes, workshops and key dates.</p>
+                <p>Working closely and smoothly with the client, I created a custom website tailored to her wishes and requirements. A particular challenge was to build the site so that the client can maintain content and dates herself after launch – without any technical knowledge.</p>
+                <p>For event management I developed a dedicated custom post type, complemented by a dynamic event calendar based on PHP date functions, custom WordPress queries and JavaScript.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Services:</strong> Concept and screen design · Custom theme development · Custom post type for events · Dynamic WordPress queries · Custom event calendar with PHP and JavaScript · User-friendly content management · Responsive web design · Close coordination with the client</p>
+            </div>
+            </article>
+
+            <!-- Play4Vision -->
+            <article class="project reveal" id="play4vision">
+            <div class="project-media">
+                <img src="assets/images/projects/play4vision.jpg" alt="Website Play4Vision" width="1920" height="1080" loading="lazy">
+            </div>
+            <h3>Play4Vision</h3>
+            <div class="project-tags">UI/UX Design · Landingpage · WordPress · <span data-lang="de">Individuelle Buchungslösung</span><span data-lang="en">Custom booking solution</span></div>
+            <div data-lang="de">
+                <p class="project-claim">Individuelle Fußballanalyse – die eigene Spielentwicklung im Fokus</p>
+                <p>Konzeption, Gestaltung und technische Entwicklung einer Website für Play4Vision, ein Angebot zur individuellen Videoanalyse im Fußball. Ziel war es, junge Fußballer und ihre Eltern anzusprechen, das Analyseangebot verständlich zu präsentieren und die Buchung der passenden Analysepakete zu ermöglichen.</p>
+                <p>Eine besondere Herausforderung bestand darin, den Buchungsprozess direkt in WordPress zu integrieren, ohne auf ein umfangreiches E-Commerce-System zurückzugreifen. Dafür entwickelte ich ein individuelles Plugin mit eigener Paketverwaltung, Buchungsformular und PayPal-Zahlungsintegration. Ergänzend entstanden automatisierte E-Mail-Benachrichtigungen sowie ein personalisiertes Formular, über das Kunden nach der Buchung ihre Spielposition, ihren Verein, ihre Ziele und weitere Informationen für die Analyse übermitteln können.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li><li>PayPal API</li></ul></div>
+                <p><strong>Leistungen:</strong> Konzeption und Screendesign · Individuelle WordPress-Theme-Entwicklung · Responsive Webdesign · Entwicklung eines eigenen Buchungsplugins · Custom Post Type und Felder für Analysepakete · Serverseitige Preisermittlung · PayPal-Zahlungsintegration · Automatisierte E-Mails · Personalisierte Datenerfassung nach der Buchung · Individuelle Administrationsoberfläche · Enge Abstimmung mit den Kunden</p>
+            </div>
+            <div data-lang="en">
+                <p class="project-claim">Individual football analysis – focusing on your own game development</p>
+                <p>Concept, design and technical development of a website for Play4Vision, a service offering individual video analysis in football. The goal was to address young players and their parents, explain the analysis offering clearly and allow them to book the right analysis package.</p>
+                <p>A particular challenge was to integrate the booking process directly into WordPress without relying on a full e-commerce system. I developed a custom plugin with its own package management, booking form and PayPal payment integration, complemented by automated e-mail notifications and a personalised form through which customers submit their playing position, club, goals and other information for the analysis after booking.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li><li>PayPal API</li></ul></div>
+                <p><strong>Services:</strong> Concept and screen design · Custom WordPress theme development · Responsive web design · Custom booking plugin · Custom post type and fields for analysis packages · Server-side pricing · PayPal payment integration · Automated e-mails · Personalised data collection after booking · Custom admin interface · Close coordination with the clients</p>
+            </div>
+            </article>
+
+            <!-- Bühler & Kollegen -->
+            <article class="project reveal" id="buehler">
+            <a class="project-media" data-domain="buehler-kollegen.de" href="https://buehler-kollegen.de" target="_blank" rel="noopener">
+                <img src="assets/images/projects/buehler-kollegen.de.jpg" alt="Website Bühler &amp; Kollegen" width="1920" height="1080" loading="lazy">
+            </a>
+            <h3>Bühler &amp; Kollegen</h3>
+            <div class="project-tags"><span data-lang="de">Ganzheitliches Webprojekt</span><span data-lang="en">End-to-end web project</span> | UI/UX Design · WordPress</div>
+            <div data-lang="de">
+                <p class="project-claim">Eine professionelle digitale Präsenz für eine Kanzlei</p>
+                <p>Konzeption, Gestaltung und technische Entwicklung einer individuellen Kanzlei-Website. In persönlichen Kundengesprächen ermittelte ich die Anforderungen und Wünsche des Kunden und entwickelte daraus ein passendes Screendesign sowie eine strukturierte Benutzerführung.</p>
+                <p>Die anschließende Umsetzung erfolgte mit WordPress auf Basis eines individuell angepassten Themes. Für die strukturierte Verwaltung spezifischer Inhalte implementierte ich eigene Custom Post Types (CPTs) und Metaboxen (CMB), sodass die Website flexibel erweitert und gepflegt werden kann.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Leistungen:</strong> Kundengespräche und Anforderungsanalyse · Konzeption und Screendesign · Individuelle Theme-Anpassungen · Entwicklung eigener Custom Post Types (CPTs) und Metaboxen (CMB) · Responsive Webdesign</p>
+            </div>
+            <div data-lang="en">
+                <p class="project-claim">A professional digital presence for a consultancy</p>
+                <p>Concept, design and technical development of a custom firm website. Through personal meetings with the client I defined the requirements and wishes and turned them into a fitting screen design and a well-structured user journey.</p>
+                <p>The site was then built with WordPress on a custom-tailored theme. To manage specific content in a structured way, I implemented custom post types (CPTs) and meta boxes (CMB), so the website can be extended and maintained flexibly.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Services:</strong> Client meetings and requirements analysis · Concept and screen design · Custom theme adjustments · Custom post types (CPTs) and meta boxes (CMB) · Responsive web design</p>
+            </div>
+            </article>
+
+            <!-- Lions Inside -->
+            <article class="project reveal" id="lions">
+            <a class="project-media" data-domain="lions-inside.de" href="https://lions-inside.de" target="_blank" rel="noopener">
+                <img src="assets/images/projects/lions-inside.de.jpg" alt="Website Lions Inside" width="1920" height="1080" loading="lazy">
+            </a>
+            <h3>Lions Inside</h3>
+            <div class="project-tags"><span data-lang="de">Ganzheitliches Webprojekt</span><span data-lang="en">End-to-end web project</span> | UI/UX Design · WordPress</div>
+            <div data-lang="de">
+                <p class="project-claim">Eine zentrale Plattform mit dezentraler Content-Ausspielung</p>
+                <p>Konzeption, UI/UX-Design und vollständige technische Entwicklung einer digitalen Informationsplattform für die Lions- und LEO-Clubs in Sachsen. Die Website bündelt Nachrichten, Projekte, Veranstaltungen und redaktionelle Beiträge und macht das Engagement der einzelnen Clubs digital sichtbar.</p>
+                <p>Eine besondere Herausforderung war die Entwicklung einer flexiblen Lösung, mit der Inhalte nicht nur zentral veröffentlicht, sondern auch auf externen Club-Websites eingebunden werden können. Dafür implementierte ich im WordPress-Backend eine individuelle Snippet-Verwaltung: Administratoren können einen Club auswählen, woraufhin automatisch ein passender Shortcode generiert wird. Dieser lässt sich auf einer anderen Website einbinden und zeigt dort die zugehörigen Beiträge des ausgewählten Clubs an.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Leistungen:</strong> Konzeption und UI/UX-Design · Individuelle Theme-Entwicklung · Entwicklung eigener WordPress-Funktionen · Custom Post Types und Metaboxen · Individuelle Snippet-Verwaltung mit automatischer Shortcode-Generierung · Clubbezogene Beitragsfilterung · Einbindung dynamischer Inhalte auf externen Websites · Responsive Webdesign</p>
+            </div>
+            <div data-lang="en">
+                <p class="project-claim">One central platform with decentralised content distribution</p>
+                <p>Concept, UI/UX design and complete technical development of a digital information platform for the Lions and LEO clubs in Saxony. The website brings together news, projects, events and editorial articles and makes the commitment of the individual clubs visible online.</p>
+                <p>A particular challenge was building a flexible solution that publishes content centrally and also embeds it on external club websites. I implemented a custom snippet manager in the WordPress back end: administrators select a club and a matching shortcode is generated automatically. Embedded on another website, it displays the selected club’s posts there.</p>
+                <div class="chips"><span class="chips-label">Tech Stack</span><ul><li>Adobe XD</li><li>WordPress</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3 (Less)</li></ul></div>
+                <p><strong>Services:</strong> Concept and UI/UX design · Custom theme development · Custom WordPress functions · Custom post types and meta boxes · Custom snippet manager with automatic shortcode generation · Club-based post filtering · Embedding dynamic content on external websites · Responsive web design</p>
+            </div>
+            </article>
+
+        </div>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+        Designed &amp; created by Yevheniia · <span data-year>2026</span>
+        <nav aria-label="Rechtliches">
+            <a href="legal-notice.html"><span data-lang="de">Impressum</span><span data-lang="en">Legal notice</span></a>
+            <a href="privacy.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+        </nav>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Nach oben / Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+    </body>
+    </html>
